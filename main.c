@@ -107,7 +107,7 @@ struct fila *insertInFila(struct fila *endFila, struct fila *newStruct){
   return newStruct;
 }
 
-struct fila *removeOfFila(struct fila *firstFila){
+struct fila *removeFromFila(struct fila *firstFila){
   struct fila *newFirst = firstFila->next;
 
   firstFila->next = NULL;
